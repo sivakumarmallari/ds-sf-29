@@ -1,0 +1,74 @@
+
+--------------------------------------------------
+
+Read and evaluate the following problem statement:
+Determine which free-tier customers will covert to paying customers, using demographic data collected at signup (age, gender, location, and profession) and customer useage data (days since last log in, and activity score 1 = active user, 0= inactive user) based on Hooli data from Jan-Apr 2015.
+--------------------------------------------------
+
+
+1. What is the outcome?
+ANS: determing who are all will get converted as paying customers
+
+2. What are the predictors/covariates?
+ANS: activity score, Age (Age is considered for hypothesis verification)
+
+3. What timeframe is this data relevent for?
+ANS: Jan-Apr 2015.
+
+4. What is the hypothesis?
+Ans: Age is inversly propotional to customer becoming Paying customer from free-tier.
+
+Let's get started with our dataset
+
+1. Create a data dictionary
+Answer:
+
+
+
+2. What is the outcome?
+Answer: X (Age) is inversly propotional to Y(customer)
+
+3. What are the predictors/covariates?
+Answer: activity score, Age (Age is considered for hypothesis verification)
+
+4. What timeframe is this data relevent for?
+Answer: Jan-Apr 2015.
+
+4. What is the hypothesis?
+Answer: X (Age) is inversly propotional to Y(customer)
+
+Using the above information, write a well-formed problem statement. 
+ANS: Predecting the Number of free-tier customers becoming Paying customers by measuring the Activity score, Age will also be used because younger a person is more likely that person will try new things.
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+1. What are the goals of the exploratory analysis?
+Ans: Deriving insights to a maximum extent.
+
+2a. What are the assumptions of the distribution of data?
+Ans: Normal Distribution.
+
+2b. How will determine the distribution of your data?
+Ans: By plotting the observations in a graph.
+
+3a. How might outliers impact your analysis?
+Ans: Fat Tail
+
+
+3b. How will you test for outliers?
+Ans: by calculating Standard Deviation
+
+
+4a. What is colinearity?
+Ans: one variable can be predicted from another variable with substantial accuricy, for example sqft of a house is directly propotional to price of house.
+
+4b. How will you test for colinearity?
+Ans: by observing the both the variables are corelated.
+
+5. What is your exploratory analysis plan? [Using the above information, write an exploratory analysis plan that would allow you or a colleague to reproduce your analysis 1 year from now.]
+Ans: by using the data analysis workflow.
+
+------------------------------------------------------------------------------------------------------------------------------
+
